@@ -39,11 +39,7 @@ class ViewController4: UIViewController, CLLocationManagerDelegate, UITextFieldD
     }
     //Location Manager delegates---- for current location
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-//        if let location = locations.last{
-//
-//        }
 
-        
         let location = locations.last
         let curLatitude = location?.coordinate.latitude
         let curLongitude = location?.coordinate.longitude
