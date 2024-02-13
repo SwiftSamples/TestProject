@@ -6,12 +6,14 @@ PODS:
   - GoogleMaps/Maps (8.2.0):
     - GoogleMaps/Base
   - GooglePlaces (7.4.0)
+  - HMSegmentedControl (1.5.6)
   - SideMenu (6.5.0)
 
 DEPENDENCIES:
   - Alamofire
   - GoogleMaps
   - GooglePlaces
+  - HMSegmentedControl
   - SideMenu
 
 SPEC REPOS:
@@ -19,14 +21,16 @@ SPEC REPOS:
     - Alamofire
     - GoogleMaps
     - GooglePlaces
+    - HMSegmentedControl
     - SideMenu
 
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
   GoogleMaps: 081f2547b60a1c0870a8f49166a653900e5055d5
   GooglePlaces: 544e908d94860bf6f8fc1865b80d2c7eb6b5f937
+  HMSegmentedControl: 34c1f54d822d8308e7b24f5d901ec674dfa31352
   SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
 
-PODFILE CHECKSUM: 2106a2aad32beebdf2e24f00110675d524242402
+PODFILE CHECKSUM: 7694a71d49b54e1bd4742cbe91aac490d0868b74
 
 COCOAPODS: 1.12.1

@@ -224,11 +224,7 @@ extension ViewController2: UITableViewDelegate, UITableViewDataSource{
                     if let indexToRemove = selectedRows.firstIndex(of: arrayModel[indexPath.row].id) {
                         selectedRows.remove(at: indexToRemove)
                         selectedNamesArray.remove(at: indexToRemove)
-                        
-//                        if indexToRemove < selectedNamesArray.count {
-//                            selectedNamesArray.remove(at: indexToRemove) // Remove corresponding name
-//                        }
-                        
+        
                         cell?.isChecked = false
                     }
                 } else {
@@ -289,7 +285,7 @@ class TestTableviewCell1: UITableViewCell{
     
     @IBAction func buttonPressed(_ sender: UIButton) {
             self.buttonAction?(sender)
-        }
+    }
     
 }
 struct Item {

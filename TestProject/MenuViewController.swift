@@ -49,7 +49,7 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
             self.navigationController?.pushViewController(vc!, animated: true)
             return
         case 3:
-            let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "ViewController4") as? ViewController4
+            let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "SegmentViewController") as? SegmentViewController
             self.navigationController?.pushViewController(vc!, animated: true)
           return
             

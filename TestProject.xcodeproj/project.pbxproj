@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		566ACB366F45D89742277FFD /* Pods_TestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27A093FE19CB5A773BADF99 /* Pods_TestProject.framework */; };
+		C605F8EB2B1A3D7400D75955 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C605F8EA2B1A3D7400D75955 /* SegmentViewController.swift */; };
 		C61C055B2A5C26B500599A29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C055A2A5C26B500599A29 /* AppDelegate.swift */; };
 		C61C055D2A5C26B500599A29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C055C2A5C26B500599A29 /* SceneDelegate.swift */; };
 		C61C055F2A5C26B500599A29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61C055E2A5C26B500599A29 /* ViewController.swift */; };
@@ -67,6 +68,7 @@
 /* Begin PBXFileReference section */
 		A27A093FE19CB5A773BADF99 /* Pods_TestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B988EA20A95A722804B47E25 /* Pods-TestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject.debug.xcconfig"; path = "Target Support Files/Pods-TestProject/Pods-TestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		C605F8EA2B1A3D7400D75955 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 		C61C05572A5C26B500599A29 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C61C055A2A5C26B500599A29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C61C055C2A5C26B500599A29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -190,6 +192,7 @@
 				C62824622ACF1CCB00983F66 /* ViewController4.swift */,
 				C6B8C4CE2AD034C200551603 /* PlaceViewController.swift */,
 				C68962192A715E99003DEE01 /* HomeViewController.swift */,
+				C605F8EA2B1A3D7400D75955 /* SegmentViewController.swift */,
 				C6481B8A2A66AC22001AD96D /* MenuViewController.swift */,
 				C61C05602A5C26B500599A29 /* Main.storyboard */,
 				C61C05632A5C26B700599A29 /* Assets.xcassets */,
@@ -456,6 +459,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C605F8EB2B1A3D7400D75955 /* SegmentViewController.swift in Sources */,
 				C697D77B2A70ED1900E2E187 /* IAPManager.swift in Sources */,
 				C669B2FD2A8BCB8800EB3263 /* MainSegPageViewController.swift in Sources */,
 				C6B592642A655A7900279EFA /* GlobalFile.swift in Sources */,

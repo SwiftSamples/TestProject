@@ -75,7 +75,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayJ-Vt-3SF">
-                                                    <rect key="frame" x="2" y="148" width="199" height="18"/>
+                                                    <rect key="frame" x="2" y="145.66666666666666" width="199" height="20.333333333333343"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -83,7 +83,6 @@
                                             </subviews>
                                             <color key="backgroundColor" systemColor="systemGreenColor"/>
                                             <constraints>
-                                                <constraint firstItem="ayJ-Vt-3SF" firstAttribute="top" secondItem="OSM-DL-eR2" secondAttribute="bottom" id="235-61-Mub"/>
                                                 <constraint firstAttribute="trailing" secondItem="ayJ-Vt-3SF" secondAttribute="trailing" constant="2" id="BDK-ig-Xod"/>
                                                 <constraint firstItem="OSM-DL-eR2" firstAttribute="top" secondItem="2cF-qO-Mr9" secondAttribute="top" constant="10" id="Hnl-na-mYY"/>
                                                 <constraint firstItem="OSM-DL-eR2" firstAttribute="centerX" secondItem="2cF-qO-Mr9" secondAttribute="centerX" id="RsT-Ob-BGS"/>
@@ -267,6 +266,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ST-lz-Krf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5445" y="-9"/>
+        </scene>
+        <!--Segment View Controller-->
+        <scene sceneID="3en-kE-GVf">
+            <objects>
+                <viewController storyboardIdentifier="SegmentViewController" id="cup-du-LhY" customClass="SegmentViewController" customModule="TestProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q0Q-rx-U4e">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EVl-YM-bru" customClass="HMSegmentedControl">
+                                <rect key="frame" x="0.0" y="79" width="393" height="70"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Dra-qG-1G0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eb6-Fb-XnP"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstItem="EVl-YM-bru" firstAttribute="leading" secondItem="eb6-Fb-XnP" secondAttribute="leading" id="TUq-LJ-5Kl"/>
+                            <constraint firstItem="EVl-YM-bru" firstAttribute="top" secondItem="eb6-Fb-XnP" secondAttribute="top" constant="20" id="aaq-rf-pLL"/>
+                            <constraint firstItem="eb6-Fb-XnP" firstAttribute="trailing" secondItem="EVl-YM-bru" secondAttribute="trailing" id="o3A-eY-2dc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="segmentView" destination="EVl-YM-bru" id="Sd0-wD-MTd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F9l-AV-a7J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4639" y="725"/>
         </scene>
         <!--Main Seg Page View Controller-->
         <scene sceneID="M2j-T8-2f5">

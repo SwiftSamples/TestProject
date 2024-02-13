@@ -11,5 +11,7 @@ target 'TestProject' do
    pod 'Alamofire'
    pod 'GoogleMaps'
    pod 'GooglePlaces'
+   pod 'HMSegmentedControl'
+
 
 end
